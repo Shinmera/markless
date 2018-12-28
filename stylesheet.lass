@@ -1,0 +1,19 @@
+(html
+ :background (hex EEEEEE)
+ (body
+  :margin 0
+  (main
+   :border 2px solid (hex DDDDDD)
+   :border-top none
+   :border-bottom none
+   :background (hex FFFFFF)
+   :max-width 800px
+   :margin 0 auto
+   :padding 1em 1em 5em 1em
+   (.code-block
+    :margin 2em)
+   ((:or h1 h2 h3 h4 h5 h6)
+    :text-indent 1em)
+   (h1 :font-size 1.6em)
+   (h2 :font-size 1.3em)
+   (h3 :font-size 1.0em))))
