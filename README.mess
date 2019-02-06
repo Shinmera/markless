@@ -299,3 +299,4 @@ The development of Markless happens on its GitHub repository at https://github.c
 This is a list of known implementations of the Markless standard. If you develop your own implementation, please "let us know"() so that we can add it.
 
 - "cl-markless"(https://shirakumo.github.io/cl-markless/) An implementation in Common Lisp, available as a library and a standalone executable.
+- "markless.el"(https://github.com/shirakumo/markless.el) A package for the Emacs editor for syntax highlighting and editing support of Markless files.
